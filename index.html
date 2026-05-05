@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>给晶晶 · 一封信</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(145deg, #f4efe7 0%, #e2d8cd 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Georgia', 'Times New Roman', '宋体', serif;
+            padding: 1.5rem;
+        }
+
+        /* 信纸卡片 */
+        .letter {
+            max-width: 620px;
+            width: 100%;
+            background: rgba(255, 252, 245, 0.96);
+            border-radius: 32px;
+            box-shadow: 0 25px 40px -12px rgba(0, 0, 0, 0.2);
+            padding: 2.2rem 2rem;
+            transition: all 0.2s ease;
+            backdrop-filter: blur(1px);
+        }
+
+        /* 标题装饰 */
+        .title {
+            font-size: 1.7rem;
+            font-weight: 400;
+            letter-spacing: 3px;
+            color: #9b7b5c;
+            border-left: 4px solid #c9ad8a;
+            padding-left: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* 正文段落 */
+        p {
+            font-size: 1rem;
+            line-height: 1.75;
+            color: #2c241a;
+            margin: 1.2rem 0;
+            text-indent: 2em;
+        }
+
+        /* 落款 */
+        .signature {
+            text-align: right;
+            font-style: italic;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px dashed #d9ccb8;
+            color: #947e62;
+            text-indent: 0;
+            font-size: 0.9rem;
+        }
+
+        /* 细微点缀 */
+        .leaf {
+            text-align: center;
+            font-size: 0.7rem;
+            color: #cbbdab;
+            margin-top: 1rem;
+            letter-spacing: 4px;
+        }
+
+        @media (max-width: 500px) {
+            .letter {
+                padding: 1.5rem;
+            }
+            .title {
+                font-size: 1.4rem;
+            }
+            p {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="letter">
+    <div class="title">✍️ 致晶晶</div>
+
+    <p>有时我会想，一朵云要走多远，才肯落成雨。后来遇见你，才觉得——大约所有的飘荡都是为了恰好的停驻。就像黄昏漫过窗台，不急不慢，却恰好把你侧影镀上淡金。</p>
+
+    <p>你说话时，声音是轻的，像三月末的风绕过新叶。我不太会说动听的句子，只是忽然开始关心四季——春天的野蔷薇有没有开，秋日散步的梧桐叶踩上去脆不脆。这些琐碎，以前是无关紧要的。</p>
+
+    <p>日子安稳地流着，没有波澜壮阔。但自从认识你，连倒一杯茶、翻几页书，都觉得安静里藏着好意。世间好物不坚牢？不，或许是还没有遇见愿意珍重的人。</p>
+
+    <p>我不许诺远方，只愿往后的清晨与薄暮，<br>
+    你抬头看月亮时，我也在同一片月光里。</p>
+
+    <div class="signature">
+        — 某个寻常日子，写给你
+			<br>周威
+    </div>
+    <div class="leaf">✿ ✿ ✿</div>
+</div>
+</body>
+</html>
